@@ -240,12 +240,12 @@ footer {
 /* Media Query pour les appareils mobiles (largeur maximale de 768px) */
 @media (max-width: 768px) {
 
-    /* Cache le menu principal par défaut sur les petits écrans */
+    /* Le menu principal est caché sur les petits écrans par défaut */
     nav ul.main-nav {
         display: none;
     }
 
-    /* Crée un bouton "Hamburger" pour le menu */
+    /* Le bouton "Menu" est affiché uniquement sur les petits écrans */
     .menu-toggle {
         display: block;
         text-align: center;
@@ -256,18 +256,17 @@ footer {
         font-size: 1.5em;
     }
 
-    /* Rend le menu visible lorsqu'on clique sur le bouton */
+    /* Le menu redevient visible si la classe "visible" est ajoutée par le JavaScript */
     nav ul.main-nav.visible {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    /* Styles pour les liens du menu mobile */
+    /* Les liens du menu s'affichent en bloc vertical */
     nav ul.main-nav li {
         display: block;
         width: 100%;
         text-align: left;
     }
 }
-
