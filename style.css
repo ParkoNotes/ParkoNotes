@@ -136,7 +136,7 @@ nav a:hover {
 /* Styles pour le wrapper principal */
 .main-content-wrapper {
     font-family: 'PoliceDisney';
-    font-size:2em;
+    font-size:1.5em;
     padding: 20px;
     text-align: left;
 }
@@ -236,6 +236,7 @@ footer {
     font-family: 'PoliceDisney';
     font-size:1.5em;
 }
+
 
 
 
