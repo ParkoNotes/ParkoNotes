@@ -7,12 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-const menuToggle = document.querySelector('.menu-toggle');
-const mainNav = document.querySelector('.main-nav');
-
-menuToggle.addEventListener('click', () => {
-    mainNav.classList.toggle('visible');
-});
 
 <body>
 
@@ -67,6 +61,12 @@ menuToggle.addEventListener('click', () => {
     <footer>
         <p>&copy; 2025 Parkonotes. Disneyland est un rêve que tout le monde peut réaliser.</p>
     </footer>
+const menuToggle = document.querySelector('.menu-toggle');
+const mainNav = document.querySelector('.main-nav');
+
+menuToggle.addEventListener('click', () => {
+    mainNav.classList.toggle('visible');
+});
 
 </body>
 </html>
