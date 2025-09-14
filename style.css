@@ -237,6 +237,11 @@ footer {
     font-size:1.5em;
 }
 
+/* Cache le bouton "Menu" par défaut (pour les grands écrans) */
+.menu-toggle {
+    display: none;
+}
+
 /* Media Query pour les appareils mobiles (largeur maximale de 768px) */
 @media (max-width: 768px) {
 
