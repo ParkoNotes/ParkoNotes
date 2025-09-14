@@ -14,7 +14,7 @@
         </div>
         <p>Aventures dans chaque note !</p>
     </header>
-
+<div class="menu-toggle">Menu</div>
     <nav>
         <ul class="main-nav">
             <li><a href="index.html">Accueil</a></li>
@@ -205,6 +205,13 @@
     <footer>
         <p>&copy; 2025 Parkonotes. Disneyland est un rêve que tout le monde peut réaliser.</p>
     </footer>
+<script>
+const menuToggle = document.querySelector('.menu-toggle');
+const mainNav = document.querySelector('.main-nav');
 
+menuToggle.addEventListener('click', () => {
+    mainNav.classList.toggle('visible');
+});
+</script>
 </body>
 </html>
