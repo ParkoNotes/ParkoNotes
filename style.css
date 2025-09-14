@@ -237,6 +237,37 @@ footer {
     font-size:1.5em;
 }
 
+/* Media Query pour les appareils mobiles (largeur maximale de 768px) */
+@media (max-width: 768px) {
 
+    /* Cache le menu principal par défaut sur les petits écrans */
+    nav ul.main-nav {
+        display: none;
+    }
 
+    /* Crée un bouton "Hamburger" pour le menu */
+    .menu-toggle {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        background-color: #4fc3f7;
+        color: #fff;
+        cursor: pointer;
+        font-size: 1.5em;
+    }
+
+    /* Rend le menu visible lorsqu'on clique sur le bouton */
+    nav ul.main-nav.visible {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /* Styles pour les liens du menu mobile */
+    nav ul.main-nav li {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
 

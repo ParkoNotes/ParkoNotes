@@ -6,6 +6,14 @@
     <title>Parkonotes - Votre guide des parcs d'attraction</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+const menuToggle = document.querySelector('.menu-toggle');
+const mainNav = document.querySelector('.main-nav');
+
+menuToggle.addEventListener('click', () => {
+    mainNav.classList.toggle('visible');
+});
+
 <body>
 
     <header>
@@ -14,7 +22,7 @@
         </div>
         <p>Aventures dans chaque note !</p>
     </header>
-
+<div class="menu-toggle">Menu</div>
     <nav>
         <ul class="main-nav">
             <li><a href="#">Accueil</a></li>
